@@ -326,14 +326,14 @@ export default function Home() {
           </div>
           <div className="funfect_area flex flex-sb">
             <div className="funfect_item" data-aos="fade-right">
-              <h3>6+</h3>
+              <h3>1.6+</h3>
               <h4>
-              Months of <br />
+              Years of <br />
               Hands-on Experience
               </h4>
             </div>
             <div className="funfect_item" data-aos="fade-up">
-              <h3>4+</h3>
+              <h3>12+</h3>
               <h4>
                 Projects <br />
                 Completed
