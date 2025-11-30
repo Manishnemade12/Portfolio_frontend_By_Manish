@@ -47,7 +47,7 @@ const Preloader = ({ isLoading }) => {
     return (
      
         <div className={`preloader ${isLoading ? '' : 'hidden'}`}>
-            <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+            <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" style={{ width: '100vw', height: '100vh', position: 'absolute', top: 0, left: 0 }}>
                 <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
             </svg>
 
