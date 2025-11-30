@@ -19,19 +19,46 @@ export default function services() {
             <div className="centerservices">
                 <div className="container">
                     <div className="cservicesbox">
-                        <div className="csservice">
+                        <div className="csservice exper-card-1">
                             <span>01</span>
-                            <h2>Web Development</h2>
-                            <img src="/img/website_icon.svg" alt="" />
+                            <div className="exper-header">
+                                <img src="/img/website_icon.svg" alt="" />
+                                <h2>Open Source Contributor at GSSOC</h2>
+                            </div>
 
                             <ul>
-                                <li>unfortunately , Not Yet !</li>
-                                {/* <li></li> */}
+                                <li>Worked on MERN stack projects</li>
+                                <li>Contributing to open source initiatives</li>
+                                <li>Collaborating with developers worldwide to build scalable web applications</li>
                             </ul>
                         </div>
 
-                        <div className="cservicesbox1">
-                            <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW9jd3Yxc2cwY2ZsemI1bmwyaHcyOXA1d2xndjJud2p5Nm91ZTNlMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OPU6wzx8JrHna/giphy.gif" />
+                        <div className="csservice exper-card-2">
+                            <span>02</span>
+                            <div className="exper-header">
+                                <img src="/img/website_icon.svg" alt="" />
+                                <h2>Open Source Connect India</h2>
+                            </div>
+
+                            <ul>
+                                <li>Developed robust backend solutions</li>
+                                <li>Focusing on performance optimization</li>
+                                <li>API design and database management for high-traffic applications</li>
+                            </ul>
+                        </div>
+
+                        <div className="csservice exper-card-3">
+                            <span>03</span>
+                            <div className="exper-header">
+                                <img src="/img/website_icon.svg" alt="" />
+                                <h2>Melsa Internship - Software Developer Intern</h2>
+                            </div>
+
+                            <ul>
+                                <li>Currently working as Software Developer Intern</li>
+                                <li>Developing and maintaining admin portal features</li>
+                                <li>Designed dynamic forms with advanced validation and user-friendly interfaces</li>
+                            </ul>
                         </div>
                     </div>
                     <div className="pricingplansec">

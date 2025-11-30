@@ -133,6 +133,10 @@ export default function Header() {
                             <img src="img/white.png" alt="logo" />
                             <h2>Manish Nemade</h2>
                         </div>
+                        <div className="mobiledarktoggle" onClick={toggleDarkMode}>
+                            <IoMoonSharp />
+                            <span>{darkMode ? 'Light Mode' : 'Dark Mode'}</span>
+                        </div>
                         <ul className="flex gap-1 flex-col flex-left mt-1" onClick={handleMobileClose}>
                             <li>
                                 <Link href="/" className={activeLink === '/' ? "active" : ""}>Home</Link>
@@ -160,7 +164,6 @@ export default function Header() {
                         {/* <div className="adjustment">
                         <p>Copyright &copy; 2024 | Manish_Nemade</p>
                         </div> */}
-                       <p>.</p>
                     </div>
                 </nav>
             </header>
